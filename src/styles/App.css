@@ -37,7 +37,7 @@ button {
     border-radius: 4px;
 }
 
-.btn-blue {
+/* .btn-blue {
     background: rgb(34, 193, 195);
     color: black;
 }
@@ -45,7 +45,45 @@ button {
 .btn-orange {
     background: rgb(221, 112, 18);
     color: black;
+} */
+
+/* .btn-green {
+    background: rgb(44, 209, 88);
+    color: black;
+} */
+
+.btn-blue {
+  background-color: rgb(34, 193, 195);
+  color: white;
+  padding: 10px;
+  margin: 5px;
+  border: none;
 }
+
+.btn-orange {
+  background-color: rgb(221, 112, 18);
+  color: white;
+  padding: 10px;
+  margin: 5px;
+  border: none;
+}
+
+.btn-green {
+  background-color: rgb(44, 209, 88);
+  color: white;
+  padding: 10px;
+  margin: 5px;
+  border: none;
+}
+
+.fix-box {
+  width: 100px;
+  height: 100px;
+  border: 2px solid #000;
+  margin: 5px;
+  cursor: pointer;
+}
+
 
 .btn-green {
     background: rgb(44, 209, 88);
