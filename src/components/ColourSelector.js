@@ -2,7 +2,7 @@ import React from 'react';
 
 const ColourSelector = (props) => {
   const { config, selectNextBackground } = props;
-  const { classname, label, background } = config;
+  const { classname, label, background,key } = config;
 
   return (
     <button
